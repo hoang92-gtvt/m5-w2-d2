@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
 import {FormsModule} from "@angular/forms";
 import { NameCardComponent } from './name-card/name-card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArticleComponent,
-    NameCardComponent
+    NameCardComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
